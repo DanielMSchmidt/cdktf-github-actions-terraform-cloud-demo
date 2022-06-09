@@ -22,7 +22,7 @@ jobs:
         run: yarn install
 
       - name: Run Terraform CDK
-        uses: hashicorp/terraform-cdk-action@v1
+        uses: danielmschmidt/terraform-cdk-action@v1
         with:
           terraformVersion: 1.0.7
           cdktfVersion: 0.11.2
